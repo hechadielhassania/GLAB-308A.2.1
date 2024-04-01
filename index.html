@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="style.css">
+        <title>Adventurer Game</title>
+        <!-- Bootstrap CSS -->
+        <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    </head>
+    <body>
+        
+        <div class="container mt-5">
+            <h1 class="mb-4">Adventurer Game</h1>
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">Adventurer</h5>
+                    <p>Name: <span id="adventurerName"></span></p>
+                    <p>Health: <span id="adventurerHealth"></span></p>
+                    <p>Inventory: <span id="adventurerInventory"></span></p>
+                    <p>Companion: <span id="adventurerCompanion"></span></p>
+                </div>
+            </div>
+            <button id="rollButton" class="btn btn-primary mt-3">Roll</button>
+            <p id="rollResult" class="mt-3"></p>
+        </div>
+    
+        <!-- Bootstrap JS and jQuery (required for Bootstrap) -->
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    
+        <script src="app.js" async defer></script>
+    </body>
+</html>
