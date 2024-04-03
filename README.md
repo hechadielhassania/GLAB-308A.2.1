@@ -39,7 +39,7 @@ For additional resources and support, consider the following:
 
 ## Author
 
-[El Hassania Hechadi]
+El Hassania Hechadi
 
 
 
